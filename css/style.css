@@ -1,0 +1,71 @@
+body {
+    overflow: hidden;
+    background: rgba(0,0,0,0.2);
+}
+#tetris {
+        width: 360px;
+        border: 5px solid black;
+        padding: 30px;
+        margin: 0 auto;
+        margin-top:50px ;
+        background: #c2ce89;
+}
+
+#canvas {
+    width: 200px;
+    height: 440px;
+    background-color: rgba(0,0,0,0.2);
+    position: relative;
+    color: #fff;
+    border: 5px solid black;
+}
+#canvas h1 {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    font-size: 30px;
+    padding-top: 180px;
+}
+
+.square {
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    border: 0px solid rgba(0,0,0,0.2);
+}
+.type0 {  background-image: url(../img/purpleBlock.png);}       /* 丄型*/
+.type1 {  background-image: url(../img/blueBlock.png);}       /* 一型*/
+.type2 {  background-image: url(../img/blackBlock.png);} 	 /* L型*/
+.type3 {  background-image: url(../img/orangeBlock.png);} 	/*反L型*/
+.type4 {  background-image: url(../img/greenBlock.png);}   /* 反z型*/
+.type5 {  background-image: url(../img/redBlock.png);} 	  /*  Z型   */ 
+.type6 {  background-image: url(../img/yellowBlock.png);}/*田型        */
+    
+#next_shape {
+    position: relative;
+    background-color: rgb(155, 165, 110);
+    border:3px solid black;
+    width: 110px;
+    height:110px;
+    
+}
+
+#info {
+    background-color: #c2ce89;
+    color: #222;
+    font-weight: 700;
+    float: right;
+    width: 110px;
+    height: 420px;
+    padding: 10px;
+    font-family: verdana;
+    border: 5px solid black;
+}
+
+#howtoplay{
+	font-family:"微软雅黑";
+	color: orangered;
+	text-align: center;
+	letter-spacing: 1px;
+}
+        
